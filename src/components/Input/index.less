@@ -1,0 +1,102 @@
+@import "../../style/theme/default";
+
+.lebra-input {
+    position: relative;
+    min-height: 120px; /*px*/
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 30px 15px;
+    overflow: hidden;
+    transition: background-color .2s;
+    &-label {
+        width: 30%;
+        margin-left: 16px;
+        overflow: hidden;
+        padding: 20px 0;
+        text-align: left;
+        white-space: nowrap;
+        color: @inline-label-color;
+        font-size: @normal-size;/*px*/
+    }
+    &-item {
+        display: block;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: transparent;
+        background-image: none;
+        color: @font-color;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: @normal-size; /*px*/
+        line-height: inherit;
+        cursor: text;
+        &:disabled{
+            color: @default-color;
+        }
+    }
+    &-clear{
+        position: relative;
+        right: 10px;
+        top: 2px;
+        color: @default-color;
+        cursor: pointer;
+    }
+    &-inline {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid @border-color;/*no*/
+        border-bottom: 1px solid @border-color;/*no*/
+        .lebra-input-label {
+
+        }
+    }
+    &-vertical {
+        .lebra-input-label {
+            display: block;
+        }
+        .lebra-input-item {
+            height: 120px;/*px*/
+            padding: 0 16px;
+            border-top: 1px solid @border-color;/*no*/
+            border-bottom: 1px solid @border-color;/*no*/
+        }
+    }
+    &-textarea {
+        .lebra-input-label {
+            display: block;
+        }
+        .lebra-input-item {
+            height: 240px;/*px*/
+            padding: 40px 16px;
+            border: 1px solid @border-color;/*no*/
+            resize: none;
+            font-family: @font-family;
+        }
+    }
+
+    &-font-length {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        font-size: 14px;/*px*/
+        color: @font-color;
+        .total-length {
+            color: @placeholder-color;
+        }
+    }
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit browsers */
+        color: @placeholder-color;
+    }
+    input::-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 19 */
+        color: @placeholder-color;
+    }
+    input:-moz-placeholder, textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: @placeholder-color;
+    }
+    input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: @placeholder-color;
+    }
+}

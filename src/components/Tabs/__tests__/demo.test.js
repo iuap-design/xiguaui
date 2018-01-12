@@ -1,0 +1,1 @@
+import React from 'react';,import Tabs2 from '../index';,import renderer from 'react-test-renderer';,test('Tabs2 should be exsit', () => {,});
