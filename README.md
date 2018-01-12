@@ -8,16 +8,35 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/xiguaui.svg)](http://isitmaintained.com/project/iuap-design/xiguaui "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/xiguaui.svg)](http://isitmaintained.com/project/iuap-design/xiguaui "Percentage of issues still open")
 
-`xiguaui` 是在西瓜 `UI` 设计规范和基础组件库 `xiguaui` 之上构建的新一代企业应用 UI 组件库，目前主要应用于 `DiWork` 产品及其生态服务中。
+`xiguaui` 是在西瓜 `UI` 设计规范和基础组件库 `tinper-bee` 之上构建的新一代企业应用 UI 组件库，目前主要应用于 `DiWork` 产品及其生态服务中。
 
 ## INTRODUCTION
 
--
+- 特性1
+- 特性2
 
 ## Components List
 
+组件图谱（全景进度图）
 
 ## Useage
 
+```
+$ npm i xiguaui -D
+```
+
+
+
+```
+// require component
+import { Button } from 'xiguaui'
+import { render } from 'react'
+
+// render your component
+render(<Button />, Container)
+
+```
 
 ## Contribute
+
+Contribute GuideLine
