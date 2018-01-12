@@ -77,7 +77,7 @@ render(<Button />, Container)
 - 克隆仓库，下载依赖
 
 ```
-git clone https://github.com/lebra/lebra-components.git
+git clone git@github.com:iuap-design/xiguaui.git
 
 cd lebra-components
 
@@ -93,20 +93,20 @@ npm install
 生成组件基本目录
 
 ```
-npm run create Input(组件名称)
+npm run create Button(组件名称)
 ```
 
 组件库提供开发调试的组件demo，查看组件示例和开发组件。
 
 ```
-npm run server Input
+npm run server Button
 ```
 如果组件有多个示例，如：`./src/components/Input/demo/search`,在组件名后面增加文件名
 
 `npm run server 组件名 [文件名]`
 
 ```
-npm run server Input search
+npm run server Button basic
 ```
 
 - 打包构建
