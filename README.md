@@ -79,7 +79,7 @@ render(<Button />, Container)
 ```
 git clone git@github.com:iuap-design/xiguaui.git
 
-cd lebra-components
+cd xiguaui
 
 //如果是集团内部，使用ynpm下载会快一些
 npm install -g ynpm-tool & ynpm install
