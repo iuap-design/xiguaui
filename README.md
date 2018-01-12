@@ -1,5 +1,6 @@
 # xiguaui
 
+![xiguaui_logo](./xiguaui_logo.png)
 
 [![npm version](https://img.shields.io/npm/v/xiguaui.svg)](https://www.npmjs.com/package/xiguaui)
 [![Build Status](https://img.shields.io/travis/iuap-design/xiguaui/master.svg)](https://travis-ci.org/iuap-design/xiguaui)
