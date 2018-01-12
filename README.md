@@ -47,10 +47,10 @@ render(<Button />, Container)
 ├── example                           示例工程
 │   ├── index.html                    例子html文件
 ├── lib
-│   └── lebra.js
+│   └── index.js
 ├── src
 │   ├── components                    组件目录
-│   │   └── Input                     每个组件单独一个文件夹
+│   │   └── Button                     每个组件单独一个文件夹
 │   │   	├── __test__              
 │   │       │    └── index.js         测试用例
 │   │   	├── demo                  例子文件夹
