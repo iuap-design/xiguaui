@@ -1,0 +1,26 @@
+{
+  "name": "xiguaui",
+  "version": "0.0.1",
+  "description": "xigua UI Component Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/xiguaui.git"
+  },
+  "keywords": [
+    "yonyou",
+    "UI",
+    "xigua",
+    "React",
+    "Components"
+  ],
+  "author": "YONYOUFED",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuap-design/xiguaui/issues"
+  },
+  "homepage": "https://github.com/iuap-design/xiguaui#readme"
+}
